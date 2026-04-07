@@ -1,0 +1,59 @@
+3.19
+Today I started the Software Development Skills full-stack course. First, I read the general course information to understand what the course is about and how the assessment works. I learned that the course is based on self-study and that I need to complete tutorial exercises, write a learning diary regularly and develop my own MERN-stack project at the end of the course.
+After understanding the course structure, I decided to organise my study plan based on the module task list. My current idea is to spend around three days on each main module and then leave about five days for building my own final project.
+Next, I focused on preparing the development environment. I checked and installed the main tools needed for full-stack development, such as Node.js, npm, Git, MongoDB and Visual Studio Code. I also installed Android Studio because I have used it in other courses before.
+I then created a public GitHub repository for this course to keep track of my learning progress and store my coursework. I set up some basic folders for exercises, the future project and the learning diary. I also practiced using the VS Code terminal to upload my first learning diary file to GitHub.
+Overall, today helped me get a clear overview of the course and make sure that my development environment is ready. In the next study session, I plan to start learning the basics of Node.js and try small practice tasks related to modules such as path, url, fs and events.
+
+3.21
+Today I started learning Node.js by following the tutorial videos. I focused on understanding the basic concepts of Node and how it works outside the browser. I learned that Node.js allows JavaScript to run on the server side and provides built-in modules to handle different tasks.
+I worked on the path module first. I learned how to get the current file path and directory using __filename and __dirname. I also practiced using functions like path.basename() and path.extname() to extract file information. This helped me understand how Node handles file system paths.
+Then I moved on to the url module. I learned how to create and parse URLs using the URL object. I practiced getting different parts of a URL such as hostname, pathname and query parameters. For example, I used searchParams.get() to retrieve values from the query string.
+Overall, today helped me understand the basic structure of Node.js and how built-in modules work. I also practiced running JavaScript files using the terminal, which is different from using JavaScript in a browser.
+
+3.24
+Today I continued learning Node.js and focused on the fs and events modules. I learned that the fs module is used to work with files. I practiced creating a file using fs.writeFile() and reading its content using fs.readFile(). This helped me understand how Node can interact with the file system.
+I also learned about the events module. I created a simple EventEmitter and used the on() method to listen for an event and emit() to trigger it. This helped me understand how event-driven programming works in Node.js.
+Overall, I completed the basic Node.js module practices and successfully pushed my work to GitHub. This gave me a better understanding of both Node.js and version control workflows. In the next step, I plan to start learning MongoDB.
+
+3.25
+Today I continued practicing Node.js and tried to understand how it works in a more practical way. I learned how to create a simple HTTP server using the built-in http module. This helped me understand how Node.js handles requests and responses without using any frameworks.
+I practiced handling different routes by checking the request URL and returning different responses based on it. For example, I created a simple route for the home page and another route that returns JSON data. This helped me understand how backend servers work at a basic level.
+Through this practice, I realised that Express.js is built on top of Node.js and simplifies many of these operations. Overall, today helped me connect the earlier module knowledge with real server behaviour.
+
+3.29
+Today I started learning MongoDB by watching the tutorial videos. I learned that MongoDB is a NoSQL database and it stores data in a flexible JSON-like format instead of using tables like traditional relational databases. This was different from what I learned before, so it helped me understand another way of managing data.
+I also learned some basic concepts such as database, collection and document. A database contains collections, and collections contain documents. Documents are similar to JavaScript objects, which makes it easier to understand and use together with Node.js.
+In addition, I learned how MongoDB connects with Node.js using the MongoDB driver. This helped me understand how backend applications can store and retrieve data from a database.
+Overall, today gave me a basic understanding of how MongoDB works and how it is used in full-stack development.
+
+3.30
+Today I worked on the practical part of MongoDB and implemented the basic CRUD operations: create, read, update and delete. I created separate JavaScript files for each operation to make the structure clear.
+For create, I used insertOne() to add a new document into the collection. For read, I used find() to retrieve all the data from the database. For update, I used updateOne() with the $set operator to modify existing data. For delete, I used both deleteOne() and deleteMany() to remove documents.
+During this process, I learned that MongoDB stores data persistently, which means the data will not be automatically removed between runs. I also understood that deleteOne() only removes one matching document, while deleteMany() can remove multiple or all documents.
+I also encountered some issues when running the files, especially related to file naming and command execution. I searched online resources and learned how to fix these problems, which improved my debugging skills.
+Overall, I successfully completed the MongoDB CRUD exercises and gained a clearer understanding of how databases work in backend development. This also helped me see how Node.js and MongoDB can work together in a full-stack application.
+
+3.31
+Today I extended my MongoDB practice by exploring more advanced operations. I practiced inserting multiple documents at once using insertMany() and learned how to query data using conditions such as finding documents with age greater than a specific value.
+I also learned how to retrieve a single document using findOne(), which is useful when working with specific data. This helped me better understand how to work with real-world data scenarios.
+During this process, I became more comfortable with how MongoDB queries work and how data is structured and accessed. I also improved my understanding of how Node.js interacts with MongoDB through asynchronous operations.
+Overall, today helped me strengthen my MongoDB skills beyond basic CRUD and gave me more confidence in handling database operations in backend development.
+
+4.2
+Today I started learning Express.js by watching the tutorial videos. I learned that Express is a framework built on top of Node.js that simplifies the process of creating servers and handling routes. Compared to using the http module directly, Express makes the code easier to read and manage.
+I learned how to create a basic server and define routes using app.get(). I also understood how Express handles requests and responses using req and res. In addition, I was introduced to middleware and learned how express.json() can be used to process incoming JSON data.
+Through the video, I also got an overview of how REST APIs work and how different HTTP methods such as GET, POST, PUT and DELETE are used in backend development.
+Overall, today helped me understand the basic structure of Express applications and how it is used to build backend services.
+
+4.7
+Today I implemented the practical part of Express.js by building a simple REST API. I created multiple routes to handle different operations, including getting all users, getting a single user by ID, creating a new user, updating existing data and deleting data.
+I used route parameters with req.params to identify specific users and applied express.json() to handle incoming request data. I practiced using different HTTP methods such as GET, POST, PUT and DELETE, which helped me understand how APIs work in real applications.
+In addition, I organized my project structure by separating routes and data into different files. This made the code cleaner and easier to manage compared to writing everything in a single file.
+Overall, I successfully built a small backend API using Express and improved my understanding of server-side development. This experience will be useful for building a full MERN-stack project later.
+After completing all the exercises for Node.js, MongoDB and Express.js, I organized my files and uploaded all of them to my GitHub repository. I had already created the repository earlier, so I encountered some errors when trying to push my changes. I searched online forums and documentation to understand the problem and learned how to resolve Git merge and push errors. This process helped me improve my problem-solving skills and gave me a better understanding of how Git works in real development scenarios.
+
+
+
+
+
