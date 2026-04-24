@@ -53,7 +53,13 @@ In addition, I organized my project structure by separating routes and data into
 Overall, I successfully built a small backend API using Express and improved my understanding of server-side development. This experience will be useful for building a full MERN-stack project later.
 After completing all the exercises for Node.js, MongoDB and Express.js, I organized my files and uploaded all of them to my GitHub repository. I had already created the repository earlier, so I encountered some errors when trying to push my changes. I searched online forums and documentation to understand the problem and learned how to resolve Git merge and push errors. This process helped me improve my problem-solving skills and gave me a better understanding of how Git works in real development scenarios.
 
+4.10
+Today I started learning React by following the official documentation and the tutorial video. I created a React project using Vite inside my Exercise folder. At first, I was confused about the correct folder path, but after checking it, I was able to run the project successfully in the browser.
+I learned basic concepts such as JSX, components, state and hooks. I used useState to create a simple user object with name ABC and age 22, and added a button event. This helped me understand how React updates the UI when state changes.
+Overall, I understood the basic structure of a React project and how components work.
 
-
-
+4.11
+Today I continued learning React and focused on JSON Server and routing. I created a db.json file and used JSON Server to simulate a backend. Then I used fetch with useEffect to load data and display it on the page.
+I also created multiple pages such as Home, About and User, and added routing using react-router-dom. At first, I was confused because my previous code seemed to disappear after adding routing, but I realized that I needed to keep the fetch logic inside the Home page.
+Finally, I pushed the React project to GitHub. I had some issues with authentication and push errors, but I solved them by following online solutions. Overall, I completed the React module and understood how different parts work together.
 
