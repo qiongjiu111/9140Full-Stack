@@ -8,3 +8,4 @@ This repository contains:
 - Project video
 
 The final project can be found inside the Project folder.
+The README.md for the project can be found in the Project folder.
