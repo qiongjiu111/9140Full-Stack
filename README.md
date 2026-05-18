@@ -1,3 +1,4 @@
+My name is Jianing Chu, my student number is 000203959
 # Software Development Skills Full Stack
 
 This repository contains:
