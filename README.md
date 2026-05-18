@@ -1,9 +1,10 @@
 My name is Jianing Chu, my student number is 000203959
-# Software Development Skills Full Stack
 
 This repository contains:
-- Exercise materials
+- Exercise
+- project
 - Learning diary
-- Final MERN-stack project
+- ReadME how to run my project
+- Project video
 
 The final project can be found inside the Project folder.
